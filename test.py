@@ -2,6 +2,7 @@ import logging
 import json
 import psycopg2
 import re
+import os
 import google.generativeai as genai
 from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler, CallbackQueryHandler
